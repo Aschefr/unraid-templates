@@ -12,7 +12,8 @@
   <Overview>Log-to-LLM Sentinel is an AI-powered log monitoring and analysis tool. It watches your logs and automatically uses local AI (Ollama) to detect, analyze, and alert you of anomalies in real-time.
   
   [b]Custom Log Volumes:[/b] If you want Sentinel to monitor specific logs not located in /var/log or /var/lib/docker, you can add a new Path in this template. Map your host directory to a container path (e.g. /custom-logs), and then add that path to the SENTINEL_BROWSE_ROOTS variable separated by a comma (e.g. /logs,/app/data,/docker-logs,/system-logs,/custom-logs).
-  </Overview>
+  
+  [b]⚠️ DISCLAIMER:[/b] This application is provided "as-is". It is a personal project in active development and "100% vibe coded" for my own needs. Use at your own risk.</Overview>
   <Category>Tools:Utilities;Network:Web</Category>
   <WebUI>http://[IP]:[PORT:10911]/</WebUI>
   <TemplateURL/>

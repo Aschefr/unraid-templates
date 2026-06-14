@@ -11,7 +11,9 @@
   <Project/>
   <Overview>OmniBank-Local est un backend financier conçu initialement pour le desktop, mais adapté pour fonctionner en autonomie sur Unraid via Docker.
   
-  Notez que les données sont stockées de façon persistante dans le dossier appdata mappé.</Overview>
+  Notez que les données sont stockées de façon persistante dans le dossier appdata mappé.
+  
+  [b]⚠️ DISCLAIMER:[/b] This application is provided "as-is". It is a personal project in active development and "100% vibe coded" for my own needs. Use at your own risk.</Overview>
   <Category>Tools:Utilities</Category>
   <WebUI>http://[IP]:[PORT:8434]</WebUI>
   <TemplateURL/>

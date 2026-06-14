@@ -9,7 +9,9 @@
   <Privileged>false</Privileged>
   <Support>https://github.com/aschefr/alanbix/issues</Support>
   <Project>https://github.com/aschefr/alanbix</Project>
-  <Overview>Alanbix est une plateforme pour gérer des tournois et interagir avec des IA. Interface riche avec gestion des joueurs, des parties, et chat IA intégré via Ollama.</Overview>
+  <Overview>Alanbix est une plateforme pour gérer des tournois et interagir avec des IA. Interface riche avec gestion des joueurs, des parties, et chat IA intégré via Ollama.
+  
+  [b]⚠️ DISCLAIMER:[/b] This application is provided "as-is". It is a personal project in active development and "100% vibe coded" for my own needs. Use at your own risk.</Overview>
   <Category>Tools:Utilities;Network:Web</Category>
   <WebUI>http://[IP]:[PORT:41481]/</WebUI>
   <TemplateURL/>
