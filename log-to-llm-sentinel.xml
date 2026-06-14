@@ -9,11 +9,15 @@
   <Privileged>false</Privileged>
   <Support>https://github.com/aschefr/log-to-llm-sentinel/issues</Support>
   <Project>https://github.com/aschefr/log-to-llm-sentinel</Project>
-  <Overview>Log-to-LLM Sentinel is an AI-powered log monitoring and analysis tool. It watches your logs and automatically uses local AI (Ollama) to detect, analyze, and alert you of anomalies in real-time.
-  
-  [b]Custom Log Volumes:[/b] If you want Sentinel to monitor specific logs not located in /var/log or /var/lib/docker, you can add a new Path in this template. Map your host directory to a container path (e.g. /custom-logs), and then add that path to the SENTINEL_BROWSE_ROOTS variable separated by a comma (e.g. /logs,/app/data,/docker-logs,/system-logs,/custom-logs).
-  
-  [b]⚠️ DISCLAIMER:[/b] This application is provided "as-is". It is a personal project in active development and "100% vibe coded" for my own needs. Use at your own risk.</Overview>
+  <Overview>[b]🇬🇧 English[/b]
+Log-to-LLM Sentinel is an AI-powered log monitoring and analysis tool. It watches your logs and automatically uses local AI (Ollama) to detect, analyze, and alert you of anomalies in real-time.
+[i]Custom Log Volumes:[/i] If you want Sentinel to monitor specific logs not located in /var/log or /var/lib/docker, add a new Path in this template. Map your host directory to a container path (e.g. /custom-logs), and then add that path to the SENTINEL_BROWSE_ROOTS variable separated by a comma.
+
+[b]🇫🇷 Français[/b]
+Log-to-LLM Sentinel est un outil de surveillance et d'analyse de journaux (logs) propulsé par l'IA. Il surveille vos logs et utilise automatiquement une IA locale (Ollama) pour détecter, analyser et vous alerter des anomalies en temps réel.
+[i]Volumes de logs personnalisés :[/i] Si vous souhaitez surveiller des logs spécifiques qui ne sont pas dans /var/log ou /var/lib/docker, ajoutez un nouveau "Path" dans ce template pointant vers votre dossier hôte, puis ajoutez ce chemin conteneur à la variable SENTINEL_BROWSE_ROOTS (séparé par une virgule).
+
+[b]⚠️ DISCLAIMER:[/b] This application is provided "as-is". It is a personal project in active development and "100% vibe coded" for my own needs. Use at your own risk. / Cette application est fournie "telle quelle". C'est un projet personnel en développement actif, "100% vibe coded" pour mes propres besoins. À utiliser à vos risques et périls.</Overview>
   <Category>Tools:Utilities;Network:Web</Category>
   <WebUI>http://[IP]:[PORT:10911]/</WebUI>
   <TemplateURL/>
