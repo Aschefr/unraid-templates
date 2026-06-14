@@ -15,16 +15,14 @@ OmniBank-Local is a financial backend initially designed for desktop, but adapte
 [b]🇫🇷 Français[/b]
 OmniBank-Local est un backend financier conçu initialement pour le desktop, mais adapté pour fonctionner en autonomie sur Unraid via Docker. Les données sont stockées de façon persistante dans le dossier appdata mappé.
 
-[b]📸 Screenshots[/b]
-[img]https://raw.githubusercontent.com/Aschefr/OmniBank-Local/main/screenshots/02_dashboard.png[/img]
-[img]https://raw.githubusercontent.com/Aschefr/OmniBank-Local/main/screenshots/04_synthèse.png[/img]
-[img]https://raw.githubusercontent.com/Aschefr/OmniBank-Local/main/screenshots/07_chat_ia.png[/img]
-
 [b]⚠️ DISCLAIMER:[/b] This application is provided "as-is". It is a personal project in active development and "100% vibe coded" for my own needs. Use at your own risk. / Cette application est fournie "telle quelle". C'est un projet personnel en développement actif, "100% vibe coded" pour mes propres besoins. À utiliser à vos risques et périls.</Overview>
   <Category>Tools:Utilities</Category>
   <WebUI>http://[IP]:[PORT:8434]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/Aschefr/OmniBank-Local/main/src-tauri/icons/128x128.png</Icon>
+  <Screenshot>https://raw.githubusercontent.com/Aschefr/OmniBank-Local/main/screenshots/02_dashboard.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/Aschefr/OmniBank-Local/main/screenshots/04_synthèse.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/Aschefr/OmniBank-Local/main/screenshots/07_chat_ia.png</Screenshot>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>

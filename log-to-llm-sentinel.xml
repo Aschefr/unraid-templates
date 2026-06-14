@@ -17,16 +17,14 @@ Log-to-LLM Sentinel is an AI-powered log monitoring and analysis tool. It watche
 Log-to-LLM Sentinel est un outil de surveillance et d'analyse de journaux (logs) propulsé par l'IA. Il surveille vos logs et utilise automatiquement une IA locale (Ollama) pour détecter, analyser et vous alerter des anomalies en temps réel.
 [i]Volumes de logs personnalisés :[/i] Si vous souhaitez surveiller des logs spécifiques qui ne sont pas dans /var/log ou /var/lib/docker, ajoutez un nouveau "Path" dans ce template pointant vers votre dossier hôte, puis ajoutez ce chemin conteneur à la variable SENTINEL_BROWSE_ROOTS (séparé par une virgule).
 
-[b]📸 Screenshots[/b]
-[img]https://raw.githubusercontent.com/Aschefr/log-to-llm-sentinel/main/screenshots/log-to-llm-sentinel_dashboard.png[/img]
-[img]https://raw.githubusercontent.com/Aschefr/log-to-llm-sentinel/main/screenshots/log-to-llm-sentinel_monitor.png[/img]
-[img]https://raw.githubusercontent.com/Aschefr/log-to-llm-sentinel/main/screenshots/log-to-llm-sentinel_chat.png[/img]
-
 [b]⚠️ DISCLAIMER:[/b] This application is provided "as-is". It is a personal project in active development and "100% vibe coded" for my own needs. Use at your own risk. / Cette application est fournie "telle quelle". C'est un projet personnel en développement actif, "100% vibe coded" pour mes propres besoins. À utiliser à vos risques et périls.</Overview>
   <Category>Tools:Utilities;Network:Web</Category>
   <WebUI>http://[IP]:[PORT:10911]/</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/Aschefr/log-to-llm-sentinel/main/static/logo.png</Icon>
+  <Screenshot>https://raw.githubusercontent.com/Aschefr/log-to-llm-sentinel/main/screenshots/log-to-llm-sentinel_dashboard.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/Aschefr/log-to-llm-sentinel/main/screenshots/log-to-llm-sentinel_monitor.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/Aschefr/log-to-llm-sentinel/main/screenshots/log-to-llm-sentinel_chat.png</Screenshot>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
