@@ -17,6 +17,11 @@ Alanbix is a platform to manage tournaments and interact with AIs. It features a
 Alanbix est une plateforme pour gérer des tournois et interagir avec des IA. Interface riche avec gestion des joueurs, des parties, et chat IA intégré via Ollama.
 [i]Note : L'interface de l'application est actuellement disponible en français uniquement.[/i]
 
+[b]📸 Screenshots[/b]
+[img]https://raw.githubusercontent.com/Aschefr/Alanbix/master/screenshots/alanbix_dashboard.png[/img]
+[img]https://raw.githubusercontent.com/Aschefr/Alanbix/master/screenshots/alanbix_assistant_ia.png[/img]
+[img]https://raw.githubusercontent.com/Aschefr/Alanbix/master/screenshots/alanbix_administration_tournois.png[/img]
+
 [b]⚠️ DISCLAIMER:[/b] This application is provided "as-is". It is a personal project in active development and "100% vibe coded" for my own needs. Use at your own risk. / Cette application est fournie "telle quelle". C'est un projet personnel en développement actif, "100% vibe coded" pour mes propres besoins. À utiliser à vos risques et périls.</Overview>
   <Category>Tools:Utilities;Network:Web</Category>
   <WebUI>http://[IP]:[PORT:41481]/</WebUI>
