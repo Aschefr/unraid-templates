@@ -2,6 +2,6 @@
   <Profile>
     This repository contains Unraid Community Applications templates for Aschefr's custom applications, including Log-to-LLM Sentinel, Alanbix, and OmniBank-Local. These applications focus on AI log monitoring, finance, and home server utilities.
   </Profile>
-  <Icon>https://raw.githubusercontent.com/Aschefr/log-to-llm-sentinel/main/static/logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/Aschefr/unraid-templates/master/asche_dev_logo.png</Icon>
   <WebPage>https://github.com/Aschefr/unraid-templates</WebPage>
 </CommunityApplications>
