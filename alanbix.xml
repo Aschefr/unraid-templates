@@ -52,6 +52,6 @@ Alanbix est une plateforme pour gérer des tournois et interagir avec des IA. In
   <Environment>
   </Environment>
   <Labels/>
-  <Config Name="WebUI Port" Target="41481" Default="41481" Mode="tcp" Description="Port d'accès à l'interface web (41481 = ALABI en leetspeak)." Type="Port" Display="always" Required="true" Mask="false">41481</Config>
-  <Config Name="Dossier AppData" Target="/app/data" Default="/mnt/user/appdata/alanbix" Mode="rw" Description="Dossier où sera stockée la base de données et les images (IMPORTANT pour ne rien perdre)." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/alanbix</Config>
+  <Config Name="WebUI Port" Target="41481" Default="41481" Mode="tcp" Description="Web UI access port (41481 = ALABI in leetspeak)." Type="Port" Display="always" Required="true" Mask="false">41481</Config>
+  <Config Name="AppData Path" Target="/app/data" Default="/mnt/user/appdata/alanbix" Mode="rw" Description="Directory where the database and uploaded images will be stored (IMPORTANT to prevent data loss)." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/alanbix</Config>
 </Container>
