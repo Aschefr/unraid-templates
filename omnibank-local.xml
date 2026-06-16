@@ -7,8 +7,8 @@
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support/>
-  <Project/>
+  <Support>https://github.com/Aschefr/OmniBank-Local/issues</Support>
+  <Project>https://github.com/Aschefr/OmniBank-Local</Project>
   <Overview>[b]🇬🇧 English[/b]
 OmniBank-Local is a financial backend initially designed for desktop, but adapted to run autonomously on Unraid via Docker. Data is persistently stored in the mapped appdata folder.
 
@@ -21,7 +21,7 @@ OmniBank-Local est un backend financier conçu initialement pour le desktop, mai
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/Aschefr/OmniBank-Local/main/src-tauri/icons/128x128.png</Icon>
   <Screenshot>https://raw.githubusercontent.com/Aschefr/OmniBank-Local/main/screenshots/02_dashboard.png</Screenshot>
-  <Screenshot>https://raw.githubusercontent.com/Aschefr/OmniBank-Local/main/screenshots/04_synthèse.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/Aschefr/OmniBank-Local/main/screenshots/04_synth%C3%A8se.png</Screenshot>
   <Screenshot>https://raw.githubusercontent.com/Aschefr/OmniBank-Local/main/screenshots/07_chat_ia.png</Screenshot>
   <ExtraParams/>
   <PostArgs/>
