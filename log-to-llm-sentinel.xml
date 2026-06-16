@@ -18,7 +18,7 @@ Log-to-LLM Sentinel est un outil de surveillance et d'analyse de journaux (logs)
 [i]Volumes de logs personnalisés :[/i] Si vous souhaitez surveiller des logs spécifiques qui ne sont pas dans /var/log ou /var/lib/docker, ajoutez un nouveau "Path" dans ce template pointant vers votre dossier hôte, puis ajoutez ce chemin conteneur à la variable SENTINEL_BROWSE_ROOTS (séparé par une virgule).
 
 [b]⚠️ DISCLAIMER:[/b] This application is provided "as-is". It is a personal project in active development and "100% vibe coded" for my own needs. Use at your own risk. / Cette application est fournie "telle quelle". C'est un projet personnel en développement actif, "100% vibe coded" pour mes propres besoins. À utiliser à vos risques et périls.</Overview>
-  <Category>Tools:Utilities;Network:Web</Category>
+  <Category>Security:;Tools:System;Network:Web</Category>
   <WebUI>http://[IP]:[PORT:10911]/</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/Aschefr/log-to-llm-sentinel/main/static/logo.png</Icon>
