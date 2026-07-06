@@ -17,7 +17,12 @@ Alanbix is a platform to manage tournaments and interact with AIs. It features a
 Alanbix est une plateforme pour gérer des tournois et interagir avec des IA. Interface riche avec gestion des joueurs, des parties, et chat IA intégré via Ollama.
 [i]Note : L'interface de l'application est actuellement disponible en français uniquement.[/i]
 
-[b]⚠️ DISCLAIMER:[/b] This application is provided "as-is". It is a personal project in active development and "100% vibe coded" for my own needs. Use at your own risk. / Cette application est fournie "telle quelle". C'est un projet personnel en développement actif, "100% vibe coded" pour mes propres besoins. À utiliser à vos risques et périls.</Overview>
+[b]⚠️ DISCLAIMER:[/b] This application is provided "as-is". It is a personal project in active development and "100% vibe coded" for my own needs. Use at your own risk. / Cette application est fournie "telle quelle". C'est un projet personnel en développement actif, "100% vibe coded" pour mes propres besoins. À utiliser à vos risques et périls.
+
+[b]🔍 SearXNG (Game Cover Search) / Recherche de jaquettes :[/b]
+This standalone template does NOT contain SearXNG. If you want game cover search, you must run a separate SearXNG container on Unraid, enable the JSON format in its `settings.yml` (add `json` to `search.formats`), and configure its URL (e.g. `http://[YOUR_UNRAID_IP]:8888`) in the Alanbix Admin panel.
+/
+Ce conteneur autonome ne contient PAS SearXNG. Pour utiliser la recherche de jaquettes de jeux, vous devez lancer un conteneur SearXNG séparé sur Unraid, activer le format JSON dans sa configuration `settings.yml` (ajouter `json` dans `search.formats`), et renseigner son URL (ex: `http://[IP_UNRAID]:8888`) dans les paramètres d'administration d'Alanbix.</Overview>
   <Category>Gaming:;Productivity:;Network:Web</Category>
   <WebUI>http://[IP]:[PORT:41481]/</WebUI>
   <TemplateURL/>
