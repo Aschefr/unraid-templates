@@ -11,9 +11,11 @@
   <Project>https://github.com/Aschefr/OmniBank-Local</Project>
   <Overview>[b]🇬🇧 English[/b]
 OmniBank-Local is a financial backend initially designed for desktop, but adapted to run autonomously on Unraid via Docker. Data is persistently stored in the mapped appdata folder.
+🔒 Optional: set OMNIBANK_PASSWORD to protect your instance with Basic Auth (recommended if accessible from other devices on your network).
 
 [b]🇫🇷 Français[/b]
 OmniBank-Local est un backend financier conçu initialement pour le desktop, mais adapté pour fonctionner en autonomie sur Unraid via Docker. Les données sont stockées de façon persistante dans le dossier appdata mappé.
+🔒 Optionnel : définissez OMNIBANK_PASSWORD pour protéger votre instance par mot de passe (recommandé si accessible depuis d'autres appareils sur votre réseau).
 
 [b]⚠️ DISCLAIMER:[/b] This application is provided "as-is". It is a personal project in active development and "100% vibe coded" for my own needs. Use at your own risk. / Cette application est fournie "telle quelle". C'est un projet personnel en développement actif, "100% vibe coded" pour mes propres besoins. À utiliser à vos risques et périls.</Overview>
   <Category>Productivity:;Tools:Utilities;Network:Web</Category>
@@ -31,8 +33,9 @@ OmniBank-Local est un backend financier conçu initialement pour le desktop, mai
   <DonateLink/>
   <Requires/>
   <Description>Financial Backend / Gestionnaire financier local</Description>
-  <Config Name="WebUI Port" Target="8434" Default="8434" Mode="tcp" Description="Web UI access port (and API)" Type="Port" Display="always" Required="true" Mask="false">8434</Config>
-  <Config Name="Configuration and Data" Target="/app/data" Default="/mnt/user/appdata/omnibank-local" Mode="rw" Description="Storage for database and uploaded files" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/omnibank-local</Config>
+  <Config Name="WebUI Port" Target="8434" Default="8434" Mode="tcp" Description="Web UI access port (and API) / Port d'accès à l'interface web (et API)" Type="Port" Display="always" Required="true" Mask="false">8434</Config>
+  <Config Name="Configuration and Data" Target="/app/data" Default="/mnt/user/appdata/omnibank-local" Mode="rw" Description="Storage for database and uploaded files / Stockage de la base de données et des fichiers" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/omnibank-local</Config>
+  <Config Name="Password (optional)" Target="OMNIBANK_PASSWORD" Default="" Mode="" Description="Optional: set a password to protect your instance with Basic Auth. Leave empty for open access (default). / Optionnel : définissez un mot de passe pour protéger votre instance. Laissez vide pour un accès libre (par défaut)." Type="Variable" Display="always" Required="false" Mask="true"/>
   <Config Name="DATABASE_URL" Target="DATABASE_URL" Default="sqlite:///./data/omnibank.db" Mode="" Description="Internal database configuration (Do not modify)" Type="Variable" Display="advanced" Required="true" Mask="false">sqlite:///./data/omnibank.db</Config>
   <Config Name="Timezone" Target="TZ" Default="Europe/Paris" Mode="" Description="Container timezone" Type="Variable" Display="advanced" Required="true" Mask="false">Europe/Paris</Config>
 </Container>
